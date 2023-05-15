@@ -15,7 +15,14 @@ export const Button = styled("button", {
   height: "51px",
   transition: "all 0.2s",
 
+  outline: "2px solid transparent",
+  outlineOffset: "4px",
+
   "&:hover": {
     opacity: 0.8,
+  },
+
+  "&:focus": {
+    outlineColor: "$blue300",
   },
 });

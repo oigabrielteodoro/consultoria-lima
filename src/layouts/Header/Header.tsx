@@ -11,9 +11,9 @@ export function Header() {
 
         <nav>
           <S.NavigationList>
-            <S.NavigationItem>
+            {/* <S.NavigationItem>
               <S.NavigationLink href="/blog">Ver notícias</S.NavigationLink>
-            </S.NavigationItem>
+            </S.NavigationItem> */}
             <S.NavigationItem>
               <Link href="https://wa.link/9zc0i9" target="_blank">
                 <Button>Entrar em contato</Button>
