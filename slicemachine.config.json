@@ -1,0 +1,6 @@
+{
+  "apiEndpoint": "https://development-consultoria-lima.prismic.io/api/v2",
+  "repositoryName": "development-consultoria-lima",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./slices"]
+}
