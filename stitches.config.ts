@@ -85,7 +85,7 @@ export const { styled, getCssText, globalCss, keyframes, css, theme } =
     },
     media: {
       mobile: "(max-width: 635px)",
-      tablet: "(max-width: 720px)",
+      tablet: "(max-width: 800px)",
       laptop: "(max-width: 1024px)",
 
       minLaptop: "(min-width: 1024px)",

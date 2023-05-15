@@ -10,6 +10,10 @@ export const Container = styled("section", {
 
   display: "flex",
   alignItems: "center",
+
+  "@tablet": {
+    maxWidth: "100vw",
+  },
 });
 
 export const Content = styled("div", {
@@ -18,6 +22,15 @@ export const Content = styled("div", {
   display: "flex",
   flexDirection: "column",
   gap: "$6",
+
+  "@tablet": {
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    marginInline: "auto",
+
+    marginBlock: "$24",
+  },
 });
 
 export const Title = styled("h1", {
@@ -45,6 +58,10 @@ export const Image = styled("img", {
   right: "-8%",
 
   zIndex: "$alwaysOnBottom",
+
+  "@tablet": {
+    display: "none",
+  },
 });
 
 export const Actions = styled("div", {

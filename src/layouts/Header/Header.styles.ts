@@ -24,6 +24,11 @@ export const Content = styled("div", {
   justifyContent: "space-between",
 
   flex: 1,
+
+  "@tablet": {
+    maxWidth: "100vw",
+    paddingInline: "$3",
+  },
 });
 
 export const NavigationList = styled("ul", {
