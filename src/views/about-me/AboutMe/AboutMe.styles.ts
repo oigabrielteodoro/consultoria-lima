@@ -9,6 +9,13 @@ export const Container = styled("section", {
   justifyContent: "space-between",
 
   paddingBlock: "$36",
+
+  "@tablet": {
+    flexDirection: "column",
+    padding: "$16 $6",
+
+    maxWidth: "100vw",
+  },
 });
 
 export const Title = styled("h1", {
@@ -30,13 +37,18 @@ export const Description = styled("h3", {
 
   fontWeight: 400,
   marginBlock: "$6 $8",
+
+  "@mobile": {
+    fontSize: "$body2",
+  },
 });
 
 export const ProfileCard = styled("div", {
   display: "flex",
   flexDirection: "column",
 
-  width: "416px",
+  maxWidth: "416px",
+  width: "100%",
 
   img: {
     width: "100%",
@@ -88,5 +100,13 @@ export const SkillItem = styled("div", {
 
     fontFamily: "$secondary",
     fontWeight: 300,
+
+    "@mobile": {
+      fontSize: "$body3",
+    },
+  },
+
+  svg: {
+    minWidth: "24px",
   },
 });

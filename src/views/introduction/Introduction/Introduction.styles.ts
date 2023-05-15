@@ -30,6 +30,7 @@ export const Content = styled("div", {
     marginInline: "auto",
 
     marginBlock: "$24",
+    paddingInline: "$6",
   },
 });
 
@@ -40,6 +41,10 @@ export const Title = styled("h1", {
   fontWeight: 700,
 
   maxWidth: "666px",
+
+  "@mobile": {
+    fontSize: "28px",
+  },
 });
 
 export const Description = styled("p", {
@@ -81,5 +86,11 @@ export const SeeBenefitsLink = styled(Link, {
 
   "&:hover": {
     color: "$neutral400",
+  },
+
+  "@mobile": {
+    svg: {
+      display: "none",
+    },
   },
 });

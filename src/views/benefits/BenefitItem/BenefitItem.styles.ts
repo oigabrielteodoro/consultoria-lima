@@ -16,6 +16,10 @@ export const Container = styled("div", {
   "&:hover": {
     borderColor: "$blue500",
   },
+
+  "@tablet": {
+    flexDirection: "column",
+  },
 });
 
 export const TextContainer = styled("div", {

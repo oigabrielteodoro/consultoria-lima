@@ -20,9 +20,9 @@ export default function Home() {
       <DefaultLayout>
         <Introduction />
         <Benefits />
-        {/* <AboutMe />
+        <AboutMe />
         <SocialService />
-        <Articles /> */}
+        <Articles />
       </DefaultLayout>
     </>
   );

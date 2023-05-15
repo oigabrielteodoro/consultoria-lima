@@ -16,7 +16,7 @@ export function Header() {
             </S.NavigationItem> */}
             <S.NavigationItem>
               <Link href="https://wa.link/9zc0i9" target="_blank">
-                <Button>Entrar em contato</Button>
+                <Button>Contato</Button>
               </Link>
             </S.NavigationItem>
           </S.NavigationList>

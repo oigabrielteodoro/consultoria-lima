@@ -3,6 +3,10 @@ import { styled } from "@/../stitches.config";
 export const Container = styled("section", {
   paddingBlock: "$36",
   borderTop: "1px solid $neutral200",
+
+  "@tablet": {
+    padding: "$16 $6",
+  },
 });
 
 export const Content = styled("div", {

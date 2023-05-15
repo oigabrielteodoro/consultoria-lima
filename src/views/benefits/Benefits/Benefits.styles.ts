@@ -5,6 +5,11 @@ export const Container = styled("section", {
   padding: "$36 $6",
 
   marginTop: "$20",
+
+  "@tablet": {
+    marginTop: 0,
+    paddingBlock: "$16",
+  },
 });
 
 export const Content = styled("div", {
@@ -30,4 +35,9 @@ export const BenefitsContainer = styled("div", {
   gridTemplateColumns: "repeat(2, 1fr)",
 
   gap: "$8",
+
+  "@mobile": {
+    gap: "$6",
+    gridTemplateColumns: "1fr",
+  },
 });
