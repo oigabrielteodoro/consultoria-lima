@@ -13,11 +13,19 @@ export function Introduction() {
           Experimente a diferença que acompanhamento profissional e apoio
           emocional podem fazer em sua vida
         </S.Title>
-        <S.Description>
-          Invista na sua qualidade de vida e na de sua família, agende agora
-          mesmo sua avaliação e comece a cuidar de si e dos seus entes queridos
-          através dos serviços da área socioassistencial.
-        </S.Description>
+        <S.DescriptionContainer>
+          <S.Description>
+            Você já parou para pensar na diferença que um acompanhamento
+            profissional e apoio emocional podem fazer em sua vida? Muitas
+            vezes, enfrentamos desafios, dilemas e momentos difíceis que podem
+            parecer esmagadores.
+          </S.Description>
+          <S.Description>
+            No entanto, contar com a orientação certa e um apoio emocional
+            adequado pode ser a chave para superar obstáculos e alcançar o seu
+            melhor potencial.
+          </S.Description>
+        </S.DescriptionContainer>
         <S.Actions>
           <Link href="https://wa.link/9zc0i9" target="_blank">
             <Button>Entrar em contato</Button>

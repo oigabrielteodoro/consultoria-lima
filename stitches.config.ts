@@ -100,6 +100,10 @@ export const globalStyles = globalCss({
     boxSizing: "border-box",
   },
 
+  p: {
+    textAlign: "justify",
+  },
+
   html: {
     scrollBehavior: "smooth",
   },

@@ -8,7 +8,14 @@ export function Benefits() {
   return (
     <S.Container id="benefícios">
       <S.Content>
-        <S.Title>Vantagens</S.Title>
+        <S.TitleContainer>
+          <S.Title>Vantagens</S.Title>
+          <S.Description>
+            Seja na área da saúde, previdência, assistência, carreira ou
+            desenvolvimento pessoal, um especialista qualificado pode oferecer
+            insights, orientações e estratégias personalizadas.
+          </S.Description>
+        </S.TitleContainer>
         <S.BenefitsContainer>
           <BenefitItem
             icon={Wrench}

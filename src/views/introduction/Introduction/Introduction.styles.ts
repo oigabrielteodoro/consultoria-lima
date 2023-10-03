@@ -47,6 +47,12 @@ export const Title = styled("h1", {
   },
 });
 
+export const DescriptionContainer = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$3",
+});
+
 export const Description = styled("p", {
   color: "$neutral400",
 

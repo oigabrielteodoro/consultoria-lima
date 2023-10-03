@@ -28,7 +28,14 @@ export const Title = styled("h1", {
   marginTop: "$6",
 });
 
-export const Description = styled("h3", {
+export const DescriptionContainer = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$4",
+  marginBlock: "$6 $8",
+});
+
+export const Description = styled("p", {
   color: "$neutral400",
 
   fontSize: "$body1",
@@ -36,7 +43,9 @@ export const Description = styled("h3", {
   lineHeight: "$body1",
 
   fontWeight: 400,
-  marginBlock: "$6 $8",
+  textAlign: "justify",
+
+  maxWidth: "600px",
 
   "@mobile": {
     fontSize: "$body2",

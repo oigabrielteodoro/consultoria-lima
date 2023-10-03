@@ -20,6 +20,12 @@ export const Content = styled("div", {
   gap: "$12",
 });
 
+export const TitleContainer = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  gap: "$4",
+});
+
 export const Title = styled("h1", {
   color: "$blue900",
 
@@ -28,6 +34,16 @@ export const Title = styled("h1", {
   lineHeight: "$h3",
 
   maxWidth: "348px",
+});
+
+export const Description = styled("h2", {
+  color: "$neutral400",
+
+  fontWeight: 400,
+  fontSize: "$body1",
+  lineHeight: "$body1",
+
+  maxWidth: "700px",
 });
 
 export const BenefitsContainer = styled("div", {

@@ -10,9 +10,19 @@ export function AboutMe() {
       <div>
         <User size={24} color={theme.colors.blue500.value} />
         <S.Title>Quem sou eu</S.Title>
-        <S.Description>
-          Ajudo pessoas na área socioassistencial a identificar seus direitos
-        </S.Description>
+        <S.DescriptionContainer>
+          <S.Description>
+            No exercício da minha função como assistente social, mantenho uma
+            convicção sólida acerca da relevância de ouvir de forma atenta e
+            compreender as narrativas individuais de cada cliente.
+          </S.Description>
+          <S.Description>
+            Cada pessoa trilha uma trajetória singular, enfrentando desafios
+            específicos, e estou aqui com o propósito de fornecer o suporte,
+            orientação e os recursos necessários para facilitar a mitigação ou a
+            superação dessas adversidades.
+          </S.Description>
+        </S.DescriptionContainer>
 
         <ul>
           <li>
